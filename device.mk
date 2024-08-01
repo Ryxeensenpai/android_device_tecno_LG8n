@@ -18,7 +18,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 PRODUCT_PACKAGES += \
 	FrameworksResOverlayLG8n \
-        SystemUIResOverlayLG8n
+    SettingsProviderOverlayLG8n \
+    SystemUIResOverlayLG8n
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
