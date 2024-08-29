@@ -32,6 +32,10 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.transsion
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/tecno/pova4series-common/common.mk)
 
