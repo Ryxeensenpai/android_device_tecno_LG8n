@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/tecno/LG8n
+KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
