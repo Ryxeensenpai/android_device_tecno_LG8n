@@ -7,6 +7,20 @@
 DEVICE_PATH := device/tecno/LG8n
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlay \
+	FrameworksResOverlayLG8n \
+	SettingsProviderOverlayLG8n \
+	SettingsResOverlayLG8n \
+	SystemUIOverlayLG8n \
+	TelephonyOverlayLG8n \
+	WifiResOverlayLG8n
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
