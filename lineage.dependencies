@@ -7,15 +7,15 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_vendor_tecno_pova4series-common",
+    "repository"  : "Anything-at-25-00/android_vendor_tecno_mt6789-common",
     "branch"      : "fourteen",
-    "target_path" : "vendor/tecno/pova4series-common"
+    "target_path" : "vendor/tecno/mt6789-common"
   },
   {
     "remote"      : "github",
-    "repository"  : "Anything-at-25-00/android_device_tecno_pova4series-common",
+    "repository"  : "Anything-at-25-00/android_device_tecno_mt6789-common",
     "branch"      : "fourteen",
-    "target_path" : "device/tecno/pova4series-common"
+    "target_path" : "device/tecno/mt6789-common"
   },
   {
     "remote"      : "github",

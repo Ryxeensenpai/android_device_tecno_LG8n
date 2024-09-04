@@ -5,7 +5,7 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/tecno/pova4series-common/BoardConfigCommon.mk
+include device/tecno/mt6789-common/BoardConfigCommon.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lg8n

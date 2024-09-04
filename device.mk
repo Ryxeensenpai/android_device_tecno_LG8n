@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.transsion
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/tecno/pova4series-common/common.mk)
+$(call inherit-product, device/tecno/mt6789-common/common.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/tecno/LG8n/LG8n-vendor.mk)
