@@ -9,7 +9,6 @@ include device/tecno/mt6789-common/BoardConfigCommon.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lg8n
-TARGET_NO_BOOTLOADER := true
 
 # Boot image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
