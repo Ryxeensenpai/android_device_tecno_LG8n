@@ -17,13 +17,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlay \
-	FrameworksResOverlayLG8n \
-	SettingsProviderOverlayLG8n \
-	SettingsResOverlayLG8n \
-	SystemUIOverlayLG8n \
-	TelephonyOverlayLG8n \
-	WifiResOverlayLG8n
+	FrameworksResOverlayLG8n
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
