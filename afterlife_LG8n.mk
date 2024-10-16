@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/tecno/LG8n/device.mk)
 
 # Inherit some common AfterlifeOS stuff.
-$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+$(call inherit-product, vendor/afterlife/config/common.mk)
 
 BOARD_VENDOR := TECNO
 PRODUCT_NAME := afterlife_LG8n
@@ -29,9 +29,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := TECNO/LG8n-GL/TECNO-LG8n:12/SP1A.210812.016/240531V1800:user/release-keys
 
 # Afterlife Stuffs
+AFTERLIFE_BUILD_TYPE := UNOFFICIAL
+AFTERLIFE_MAINTAINER := RyX33N
 AFTERLIFE_GAPPS := true
 AFTERLIFE_CORE := true
 AFTERLIFE_EXTRA := true
-AFTERLIFE_MAINTAINER := RyX33N
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_TOUCHGESTURES := true
