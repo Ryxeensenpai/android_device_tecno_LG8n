@@ -5,8 +5,6 @@ vendor/lib64/mt6789/libaalservice.so
 vendor/lib64/libaal_cust.so
 
 # Audio
-vendor/bin/audiocmdservice_atci
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/AudioLog_dynamic.xml
 vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/libbwc.so
