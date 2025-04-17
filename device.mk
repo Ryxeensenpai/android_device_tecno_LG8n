@@ -18,11 +18,15 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 PRODUCT_PACKAGES += \
 	FrameworksResOverlayLG8n \
+    SettingsResOverlayCloverLG8n \
     SettingsProviderOverlayLG8n \
     SystemUIOverlayLG8n
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
+
+#Sign
+$(call inherit-product, vendor/clover-priv/keys/keys.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
